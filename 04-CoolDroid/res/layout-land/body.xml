@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="left"
+        android:src="@drawable/droid"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeText"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/welcomeText"
+        android:textSize="30dp"/>
+</LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="5dp"
+          android:layout_marginTop="10dp"
+          android:background="#00ff00" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/messageDontTouch"
+        android:id="@+id/message"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"/>
+</LinearLayout>
+

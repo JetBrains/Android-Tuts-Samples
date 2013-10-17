@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm another activity and may have another menu"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="22dp"
+        android:textColor="#5dff35"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I want more choices..."
+        android:id="@+id/largeMenuOn"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"/>
+
+</LinearLayout>

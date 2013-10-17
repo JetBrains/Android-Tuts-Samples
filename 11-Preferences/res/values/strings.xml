@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Preferences Droid</string>
+    <string name="headerTitle">Preferences ...</string>
+    <string name="labelPrefButton">Preferences</string>
+    <string name="mainMenuItemSettings">Settings</string>
+</resources>

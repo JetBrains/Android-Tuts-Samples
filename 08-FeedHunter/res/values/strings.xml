@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Feed Hunter</string>
+    <string name="headerTitle">The Feed Hunter - step #4</string>
+    <string name="labelConnect">Connect</string>
+    <string name="labelLoading">Loading data ...</string>
+</resources>

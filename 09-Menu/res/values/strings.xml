@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuDroid</string>
+    <string name="headerTitle">Menu ...</string>
+    <string name="labelButton">Jump to...</string>
+
+    <string name="mainMenuItemSettings">Settings</string>
+    <string name="mainMenuItemAbout">About</string>
+    <string name="mainMenuItemExit">Exit</string>
+    <string name="anotherMenuItemSave">Auto-Save</string>
+    <string name="anotherMenuItemShare">Share</string>
+    <string name="anotherMenuItemShareFacebook">Facebook</string>
+    <string name="anotherMenuItemShareTwitter">Twitter</string>
+    <string name="anotherMenuItemShareGooglePlus">Google+</string>
+
+    <string name="droidActionSayHi">Say \'Hi\' to the droid</string>
+    <string name="droidActionDoNothing">Just nothing</string>
+</resources>

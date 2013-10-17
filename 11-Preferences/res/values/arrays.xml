@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="listScoringTypes">
+        <item>Single set</item>
+        <item>Best of 3</item>
+        <item>Best of 3 with MTB</item>
+        <item>Best of 5 with FTB</item>
+        <item>Best of 5</item>
+    </string-array>
+
+    <string-array name="listScoringTypeCodes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

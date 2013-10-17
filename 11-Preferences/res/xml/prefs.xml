@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Create a new match" >
+         <EditTextPreference android:title="Team #1"
+                             android:key="team1"
+                             android:summary="Name of the player(s)">
+         </EditTextPreference>
+         <EditTextPreference android:title="Team #2"
+                             android:key="team2"
+                             android:summary="Name of the player(s)">
+         </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings">
+         <CheckBoxPreference android:title="Is this a double"
+                             android:key="isdouble"
+                             android:summary=""
+                             android:defaultValue="false">
+         </CheckBoxPreference>
+        <ListPreference
+            android:title="Set the scoring type"
+            android:key="scoring"
+            android:defaultValue="1"
+            android:entries="@array/listScoringTypes"
+            android:entryValues="@array/listScoringTypeCodes" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

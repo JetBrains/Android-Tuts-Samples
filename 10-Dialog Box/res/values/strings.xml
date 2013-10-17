@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Dialog Droid</string>
+    <string name="headerTitle">Dialog ...</string>
+    <string name="labelYesNoButton">Yes-No</string>
+    <string name="labelPickerButton">Date picker</string>
+    <string name="labelDialogButton">Dialog box</string>
+    <string name="labelYes">Yes</string>
+    <string name="labelNo">No</string>
+    <string name="labelMessageBoxBody">You\'re about to delete all data. Are  you sure?</string>
+    <string name="labelMessageBoxTitle">Warning</string>
+</resources>

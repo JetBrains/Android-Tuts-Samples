@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/anotherMenuItemSave">
+        <menu>
+            <group android:id="@+id/groupAutoSave" android:checkableBehavior="all">
+                <item android:id="@+id/anotherMenuItemAutoSavePeriodically"
+                      android:title="Periodically" />
+                <item android:id="@+id/anotherMenuItemAutoSaveUponExit"
+                      android:title="Upon exit" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/groupShareFacebook"
+          android:title="@string/anotherMenuItemShareFacebook" />
+    <item android:id="@+id/groupShareTwitter"
+          android:title="@string/anotherMenuItemShareTwitter" />
+    <item android:id="@+id/groupShareGooglePlus"
+          android:title="@string/anotherMenuItemShareGooglePlus" />
+</menu>
+
